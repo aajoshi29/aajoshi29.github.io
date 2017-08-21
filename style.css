@@ -1,0 +1,120 @@
+img
+{
+	max-width:100%;
+	max-height:100%;
+}
+.inner_div2
+{
+	background-color:#333;
+	margin:auto;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+	width:250px;
+	border:1px solid #ddd;
+	display:inline-block;
+}
+p
+{
+	font-size:22px;
+	text-align:justify;
+}
+a{
+	color:#fff;
+	text-decoration:none;
+}
+a:hover{
+	color:#fff;
+	text-decoration:underline;
+}
+.contact
+{
+	list-style:none;
+	text-align:left;
+	margin-top:70px;
+}
+ul
+{
+	list-style:none;
+	text-align:left;
+}
+li
+{
+	margin-top:5px;
+	font-size:22px;
+	text-align:justify;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.heart
+{
+	width:20px;
+}
+.made_with
+{
+	color:#333;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+* 
+{
+	box-sizing: border-box;
+}
+.division
+{
+	min-width:700px;
+}
+body
+{
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	background: url(images/blur.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+div.tab 
+{
+    float: left;
+    border: 1px solid #ccc;
+	background-color: #f1f1f1;
+    width: 30%;
+	margin-bottom: 10px;
+}
+div.tab button 
+{
+    display: block;
+    background-color: #eaeaea;
+    color: #999;
+    padding: 10px 10px;
+    width: 100%;
+	height:70px;
+	border:0;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+div.tab button:hover 
+{
+    background-color: #ddd;
+	text-decoration:underline;
+}
+div.tab button.active 
+{
+    background-color: #ccc;
+	border-right: 5px solid #333;
+	color:#333;
+}
+.tabcontent 
+{
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height:100%;
+	color:#fff;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
