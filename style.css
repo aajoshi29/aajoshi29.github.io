@@ -1,26 +1,26 @@
 .about_div
 {
-	background-color:#333;
+	background-color:#555;
 	width:100%;
 	padding-top:5px;
 	padding-bottom:5px;
 	font-size:16px;
-	color:#eee;
+	color:#fff;
 	margin-top:50px;
 }
 .contact_div
 {
-	background-color:#333;
+	background-color:#555;
 	width:100%;
 	padding-top:5px;
 	padding-bottom:5px;
 	font-size:16px;
-	color:#eee;
+	color:#fff;
 	margin-top:353px;
 }
 nav 
 {
-    background-color: #999;
+    background-color: none;
 }
 nav ul
 {
@@ -33,7 +33,7 @@ nav ul li
     display: inline-block;
 }
 nav > ul > li > a {
-    color: #0f136a;
+    color: #fff;
     display: block;
     line-height: 1em;
     padding: 0.6em;
@@ -41,17 +41,18 @@ nav > ul > li > a {
 }
 nav li:hover 
 {
-    background-color: #aaa;
+    background-color: #fff;
 }
 nav ul li a:hover
 {
-	color:#fff;
+	color:#000;
 }
 p
 {
 	font-size:20px;
 	text-align:justify;
-	color:#44bc30;
+	color:#fff;
+	margin:30px 50px 0 50px;
 }
 ul
 {
@@ -60,21 +61,40 @@ ul
 }
 li
 {
-	margin-top:5px;
+	margin:5px 50px 0 50px;
 	font-size:20px;
 	text-align:justify;
 	padding-top:5px;
 	padding-bottom:5px;
-	color:#44bc30;
+	color:#fff;
+}
+.ul_contact_me
+{
+	list-style:none;
+	text-align:left;
+}
+.li_contact_me
+{
+	margin:5px 50px 0 5px;
+	font-size:20px;
+	text-align:justify;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:#fff;
 }
 body
 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
-	background: #fff; 
+	background: url(images/back.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	/*background: #355e5b;*/ 
 }
 h3
 {
-	color:#8c75c5;
+	color:#fff;
+	margin:30px 50px 0 50px;
 }
 .image
 {
