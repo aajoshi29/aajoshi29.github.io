@@ -85,7 +85,7 @@ li
 body
 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
-	background: url(images/back.jpg) no-repeat center fixed; 
+	/*background: url(images/back.jpg) no-repeat center fixed; */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
